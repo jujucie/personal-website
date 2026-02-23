@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Julie Li — portfolio" />
+  <title>Julie Li — Portfolio</title>
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Allura&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to content</a>
+
+  <header class="nav" role="banner">
+    <div class="nav-inner">
+      <div class="nav-pill">
+        <a class="brand" href="#top" aria-label="Go to top">Julie Li</a>
+
+        <nav class="nav-links" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+          <a class="nav-quiet" href="Julie_Li_Portfolio.pdf" target="_blank" rel="noopener">PDF</a>
+        </nav>
+
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+
+      <div class="nav-drawer" aria-hidden="true">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+        <a href="Julie_Li_Portfolio.pdf" target="_blank" rel="noopener">Open PDF</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- COVER (matches PDF page 1) -->
+    <section class="section hero slide slide--cover">
+      <div class="container pdf-slide reveal">
+        <div class="pdf-layout cover-layout">
+          <div class="hero-year" aria-hidden="true">2026</div>
+
+          <div class="hero-wordmark" aria-label="Portfolio wordmark">
+  <div class="hero-word">portfolio</div>
+  <div class="hero-signature">Julie Li</div>
+
+  <a class="scroll-cue" href="#about" aria-label="Scroll to about">
+    <span>Scroll</span>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16.5 5.5 10l1.4-1.4 5.1 5.1 5.1-5.1L18.5 10z"/></svg>
+  </a>
+</div>
+      </div>
+    </section>
+
+    <!-- ABOUT (matches PDF page 2) -->
+    <section id="about" class="section slide slide--about">
+      <div class="container pdf-slide reveal">
+        <div class="pdf-layout">
+          <h2 class="big-title pdf-title">Hello, I’m Julie</h2>
+
+          <div class="about-copy">
+            <p>
+              I’ve been designing things for as long as I can remember. As a kid, that meant cutting up old clothes to make outfits for my stuffed
+              animals, building tiny closets for my dolls, and eventually convincing myself I could build real furniture.
+            </p>
+            <p>
+              Somewhere along the way, that instinct to make and tinker grew into CAD models, prototypes, experiments, and systems that have to work
+              in the real world. I’m drawn to projects where creativity meets engineering, where thoughtful design and functionality coexist.
+            </p>
+            <p>
+              Today, I approach engineering the same way I always have: with curiosity, hands-on problem solving, and the belief that good design
+              should feel intuitive, intentional, and human.
+            </p>
+
+            <div class="callout">
+              <div class="callout-title">What I like building</div>
+              <div class="chips" aria-label="Focus areas">
+                <span class="chip">mechanisms</span>
+                <span class="chip">CAD + prototyping</span>
+                <span class="chip">design for reliability</span>
+                <span class="chip">systems that “just work”</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-media">
+            <figure class="media-card">
+              <img class="js-lightbox" src="assets/img/portrait.jpg" alt="Portrait placeholder" loading="lazy" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK (website-only convenience section) -->
+    <section id="work" class="section">
+      <div class="container reveal">
+        <div class="section-top">
+          <h2 class="section-title">Selected work</h2>
+          <div class="section-note">Tap a card to jump</div>
+        </div>
+
+        <div class="rail" aria-label="Project overview">
+          <a class="rail-card" href="#waterwheel">
+            <div class="rail-media" style="background-image:url('assets/img/waterwheel-boat.jpg');"></div>
+            <div class="rail-body">
+              <div class="rail-title">water wheel desalination pump</div>
+              <div class="rail-meta">ongoing, 2026</div>
+            </div>
+          </a>
+
+          <a class="rail-card" href="#button-linkage">
+            <div class="rail-media" style="background-image:url('assets/img/button-linkage.jpg');"></div>
+            <div class="rail-body">
+              <div class="rail-title">button pressing linkage</div>
+              <div class="rail-meta">December 2025</div>
+            </div>
+          </a>
+
+          <a class="rail-card" href="#fod-kits">
+            <div class="rail-media" style="background-image:url('assets/img/fod-right.jpg');"></div>
+            <div class="rail-body">
+              <div class="rail-title">FOD free kits</div>
+              <div class="rail-meta">August 2025</div>
+            </div>
+          </a>
+
+          <a class="rail-card" href="#popcorn-sensor">
+            <div class="rail-media" style="background-image:url('assets/img/popcorn-cad.jpg');"></div>
+            <div class="rail-body">
+              <div class="rail-title">popcorn sensor</div>
+              <div class="rail-meta">April 2025</div>
+            </div>
+          </a>
+
+          <a class="rail-card" href="#slide-solve">
+            <div class="rail-media" style="background-image:url('assets/img/slide-exploded.jpg');"></div>
+            <div class="rail-body">
+              <div class="rail-title">slide &amp; solve</div>
+              <div class="rail-meta">December 2024</div>
+            </div>
+          </a>
+
+          <a class="rail-card" href="#submarine">
+            <div class="rail-media" style="background-image:url('assets/img/submarine-render.jpg');"></div>
+            <div class="rail-body">
+              <div class="rail-title">toy submarine model</div>
+              <div class="rail-meta">November 2024</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="hint-row">
+          <a class="hint-link" href="Julie_Li_Portfolio.pdf" target="_blank" rel="noopener">
+            View the original PDF layout
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT: WATER WHEEL (matches PDF page 3) -->
+    <section id="waterwheel" class="section slide slide--waterwheel">
+      <div class="container pdf-slide reveal">
+        <div class="pdf-layout ww-layout">
+          <div class="ww-left">
+            <h2 class="big-title pdf-title">water wheel desalination pump</h2>
+
+            <p class="lead pdf-desc">
+              Conceptualized and engineered a boat-mounted water wheel system to passively power a desalination pump using river or tidal flow.
+              Designed to reduce external energy input while maintaining steady flow and pretreatment compliance.
+            </p>
+
+            <figure class="media-card ww-boat">
+              <img class="js-lightbox" src="assets/img/waterwheel-boat.jpg" alt="Boat-mounted water wheel concept" loading="lazy" />
+              <figcaption class="caption">Concept illustration / render.</figcaption>
+            </figure>
+          </div>
+
+          <div class="ww-right">
+            <div class="pdf-date">ongoing, 2026</div>
+
+            <figure class="media-card ww-icon">
+              <img class="js-lightbox" src="assets/img/waterwheel-icon.jpg" alt="Concept icon" loading="lazy" />
+              <figcaption class="caption">Concept icon.</figcaption>
+            </figure>
+
+            <div class="highlights ww-highlights">
+              <div class="highlights-title">Technical Highlights</div>
+              <ul>
+                <li>Designed hydrodynamic paddle geometry for torque generation</li>
+                <li>Analyzed flow rate vs rotational speed to size pump coupling</li>
+                <li>Considered cavitation, debris loading, and marine corrosion</li>
+                <li>Researched flow &amp; pretreatment regulatory requirements</li>
+              </ul>
+
+              <div class="cta-row ww-cta">
+                <a class="button" href="assets/slides/page-03.jpg" target="_blank" rel="noopener">Open slide</a>
+                <a class="button button-quiet" href="#button-linkage">Next project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT: BUTTON PRESSING LINKAGE (matches PDF page 4) -->
+    <section id="button-linkage" class="section slide slide--button">
+      <div class="container pdf-slide reveal">
+        <div class="pdf-layout">
+          <div class="pdf-date">December 2025</div>
+
+          <h2 class="big-title pdf-title">button pressing linkage</h2>
+
+          <p class="lead pdf-desc">
+            Designed and machined a single-motor linkage system to autonomously press color-coded arcade buttons under strict volume, transmission
+            angle, and control constraints. Achieved a highest performance score of 120 points in 1-minute trials.
+          </p>
+
+          <div class="video-card btn-video">
+            <video preload="metadata" playsinline controls poster="assets/img/button-linkage.jpg">
+              <source src="assets/video/button-pressing-linkage.mp4" type="video/mp4" />
+            </video>
+          </div>
+
+          <div class="highlights btn-highlights">
+            <div class="highlights-title">Technical Highlights</div>
+            <ul>
+              <li>Designed a low-inertia four-bar linkage for rapid button travel</li>
+              <li>Machined aluminum precision-aligned linkages, spacers, brackets &amp; ground plate</li>
+              <li>Implemented closed-loop motor control using Arduino</li>
+            </ul>
+
+            <div class="cta-row btn-cta">
+              <a class="button" href="assets/slides/page-04.jpg" target="_blank" rel="noopener">Open slide</a>
+              <a class="button button-quiet" href="#fod-kits">Next project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT: FOD FREE KITS (matches PDF page 5) -->
+    <section id="fod-kits" class="section slide slide--fod">
+      <div class="container pdf-slide reveal">
+        <div class="pdf-layout">
+          <div class="pdf-date">August 2025</div>
+          <h2 class="big-title pdf-title">FOD free kits</h2>
+
+          <p class="lead pdf-desc">
+            Designed foreign object debris (FOD)-controlled tool kits for aerospace production to prevent contamination and improve assembly reliability.
+          </p>
+
+          <div class="highlights fod-highlights">
+            <div class="highlights-title">Technical Highlights</div>
+            <ul>
+              <li>Modeled shadow inserts in Creo</li>
+              <li>Optimized tool layout for visual control &amp; workflow efficiency</li>
+              <li>Considered aerospace FOD-standards &amp; environment-compatible materials</li>
+              <li>Iterated prototypes for fit tolerance and repeatability</li>
+            </ul>
+
+            <div class="cta-row fod-cta">
+              <a class="button" href="assets/slides/page-05.jpg" target="_blank" rel="noopener">Open slide</a>
+              <a class="button button-quiet" href="#popcorn-sensor">Next project</a>
+            </div>
+          </div>
+
+          <figure class="media-card fod-img1">
+            <img class="js-lightbox" src="assets/img/fod-left.jpg" alt="Prototype inserts" loading="lazy" />
+            <figcaption class="caption">Prototype inserts.</figcaption>
+          </figure>
+
+          <figure class="media-card fod-img2">
+            <img class="js-lightbox" src="assets/img/fod-right.jpg" alt="Tool layout" loading="lazy" />
+            <figcaption class="caption">Tool layout.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT: POPCORN SENSOR (matches PDF page 6) -->
+    <section id="popcorn-sensor" class="section slide slide--popcorn">
+      <div class="container pdf-slide reveal">
+        <div class="pdf-layout">
+          <div class="pdf-date">April 2025</div>
+          <h2 class="big-title pdf-title">popcorn<br/>sensor</h2>
+
+          <p class="lead pdf-desc">
+            Designed and optimized a flexure-based 6-axis force/torque sensor for robotic manipulation. Focused on stiffness tuning, hysteresis
+            reduction, and fatigue validation.
+          </p>
+
+          <figure class="media-card pop-hardware">
+            <img class="js-lightbox" src="assets/img/popcorn-array.jpg" alt="Hardware iterations" loading="lazy" />
+            <figcaption class="caption">Hardware iterations.</figcaption>
+          </figure>
+
+          <div class="highlights pop-highlights">
+            <div class="highlights-title">Technical Highlights</div>
+            <ul>
+              <li>Improved directional stiffness &amp; production repeatability</li>
+              <li>Iterated flexure geometry (thickness, arc angle, curvature) to reduce dead zones &amp; hysteresis</li>
+              <li>Conducted multi-angle indentation tests (0°, 45°, 90°)</li>
+              <li>Measured fatigue &amp; failure limits (tension, torsion, shear)</li>
+            </ul>
+
+            <div class="cta-row pop-cta">
+              <a class="button" href="assets/slides/page-06.jpg" target="_blank" rel="noopener">Open slide</a>
+              <a class="button button-quiet" href="#slide-solve">Next project</a>
+            </div>
+          </div>
+
+          <figure class="media-card pop-cad">
+            <img class="js-lightbox" src="assets/img/popcorn-cad.jpg" alt="CAD section view" loading="lazy" />
+            <figcaption class="caption">CAD section view.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT: SLIDE & SOLVE (matches PDF page 7) -->
+    <section id="slide-solve" class="section slide slide--slide-solve">
+      <div class="container pdf-slide reveal">
+        <div class="pdf-layout">
+          <div class="pdf-date">December 2024</div>
+          <h2 class="big-title pdf-title">slide &amp; solve</h2>
+
+          <p class="lead pdf-desc">
+            Fully mechanical addition/subtraction toy that displays results without electronics. Designed complete gear-driven slider-to-display system.
+          </p>
+
+          <figure class="media-card ss-left">
+            <img class="js-lightbox" src="assets/img/slide-drawing.jpg" alt="Drawing sheet" loading="lazy" />
+            <figcaption class="caption">Drawing sheet.</figcaption>
+          </figure>
+
+          <div class="ss-right">
+            <figure class="media-card ss-exploded">
+              <img class="js-lightbox" src="assets/img/slide-exploded.jpg" alt="Exploded CAD view" loading="lazy" />
+              <figcaption class="caption">Exploded view.</figcaption>
+            </figure>
+
+            <div class="video-card ss-video">
+              <video preload="metadata" playsinline controls poster="assets/img/slide-exploded.jpg">
+                <source src="assets/video/slide-and-solve.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+
+          <div class="cta-row ss-cta">
+            <a class="button" href="assets/slides/page-07.jpg" target="_blank" rel="noopener">Open slide</a>
+            <a class="button button-quiet" href="#submarine">Next project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT: SUBMARINE (matches PDF page 8) -->
+    <section id="submarine" class="section slide slide--submarine">
+      <div class="container pdf-slide reveal">
+        <div class="pdf-layout">
+          <div class="pdf-date">November 2024</div>
+          <h2 class="big-title pdf-title">toy submarine<br/>model</h2>
+
+          <p class="lead pdf-desc">
+            Modeled a toy submarine in SolidWorks to practice dimensional accuracy and assembly alignment. Recreated each individual component based on
+            physical measurements and visual inspection.
+          </p>
+
+          <figure class="media-card sub-photo">
+            <img class="js-lightbox" src="assets/img/submarine-photo.jpg" alt="Toy submarine reference photo" loading="lazy" />
+            <figcaption class="caption">Reference photo.</figcaption>
+          </figure>
+
+          <figure class="media-card sub-render">
+            <img class="js-lightbox" src="assets/img/submarine-render.jpg" alt="Toy submarine CAD render" loading="lazy" />
+            <figcaption class="caption">CAD render.</figcaption>
+          </figure>
+
+          <figure class="media-card sub-drawing">
+            <img class="js-lightbox" src="assets/img/submarine-drawing.jpg" alt="Exploded / drawing view" loading="lazy" />
+            <figcaption class="caption">Exploded / drawing view.</figcaption>
+          </figure>
+
+          <div class="cta-row sub-cta">
+            <a class="button" href="assets/slides/page-08.jpg" target="_blank" rel="noopener">Open slide</a>
+            <a class="button button-quiet" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container reveal">
+        <div class="section-top">
+          <h2 class="section-title">Contact</h2>
+          <div class="section-note">Let’s build something</div>
+        </div>
+
+        <div class="contact-card">
+          <div>
+            <div class="contact-title">Julie Li</div>
+            <div class="contact-sub">Mechanical design · CAD · prototyping</div>
+          </div>
+
+          <div class="contact-actions">
+            <a class="button" href="mailto:jl6320@columbia.edu">Email</a>
+            <a class="button button-quiet" href="https://www.linkedin.com/in/julieli10/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="button button-quiet" href="Julie_Li_Portfolio.pdf" target="_blank" rel="noopener">Open PDF</a>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="footer-left">
+            <span class="footer-dim">©</span> <span id="year"></span> Julie Li
+          </div>
+          <div class="footer-right">
+            <a href="#top">Back to top</a>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox root -->
+  <div class="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop" data-close="1"></div>
+    <div class="lightbox-panel" role="dialog" aria-modal="true" aria-label="Media viewer">
+      <button class="lightbox-close" type="button" aria-label="Close" data-close="1">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.3 5.7 12 12l6.3 6.3-1.4 1.4L10.6 13.4 4.3 19.7 2.9 18.3 9.2 12 2.9 5.7 4.3 4.3l6.3 6.3 6.3-6.3z"/></svg>
+      </button>
+      <div class="lightbox-content"></div>
+    </div>
+  </div>
+
+  <!-- Video modal -->
+  <div class="vmodal" aria-hidden="true">
+    <div class="vmodal-backdrop" data-vclose="1"></div>
+    <div class="vmodal-panel" role="dialog" aria-modal="true" aria-label="Video player">
+      <button class="vmodal-close" type="button" aria-label="Close" data-vclose="1">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.3 5.7 12 12l6.3 6.3-1.4 1.4L10.6 13.4 4.3 19.7 2.9 18.3 9.2 12 2.9 5.7 4.3 4.3l6.3 6.3 6.3-6.3z"/></svg>
+      </button>
+      <div class="vmodal-content"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
